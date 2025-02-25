@@ -70,7 +70,7 @@ router.get('/', async (req, res) => {
                         const sid = string_session;
 
                         const dt = await PrabathPairWeb.sendMessage(user_jid, {
-                            text: sid
+                            text: "RAHUL-MD~"  + sid
                         });
 
                     } catch (e) {
